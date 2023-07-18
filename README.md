@@ -1,6 +1,6 @@
 # ROS2 Smart Lift
 
-This project aims to develop a physical add-on kit for an elevator to allow the elevator to be controlled by a robot. The add-on kit will be programmed using ROS2 and is ready for future integration into Robotics Middleware Framework (RMF).
+This project aims to develop a physical add-on kit for an elevator to allow the elevator to be controlled by a robot. The add-on kit will be programmed using ROS2 and is ready for future integration into Robotics Middleware Framework (RMF). Unique QR codes indicating the floor level will be pasted on each floor, and the camera inside the lift would be able to detect which floor the elevator is on when the doors open. Servos are actuated to depress corresponding buttons in the lifts (like a human would) to command the elevator.
 
 ### Hardware:
 - Raspberry Pi 4,
