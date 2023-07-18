@@ -3,14 +3,14 @@
 This project aims to develop a physical add-on kit for an elevator to allow the elevator to be controlled by a robot. The add-on kit will be programmed using ROS2 and is ready for future integration into Robotics Middleware Framework (RMF).
 
 ### Hardware:
-Raspberry Pi 4,
-Raspberry Pi Camera V2.1,
-PCA 9685 16 x 12-bit PWM,
-SG91R Micro Servo
+- Raspberry Pi 4,
+- Raspberry Pi Camera V2.1,
+- PCA 9685 16 x 12-bit PWM,
+- SG91R Micro Servo
 
 ### Software:
-Ubuntu 22.04,
-ROS2 Humble
+- Ubuntu 22.04,
+- ROS2 Humble
 
 
 ### Interfaces:
