@@ -47,3 +47,10 @@ The ```cam2image``` node publishes the images taken by the Raspberry Pi camera f
 ```
 ros2 run image_tools cam2image
 ```
+
+## To request the service of an elevator:
+You can use the ROS2 command line interface with the following message to request the service of an elevator:
+```
+ros2 topic pub -1 /lift_requests lift_interfaces/LiftRequests "{lift_id: 1, robot_id: 1, robot_current_floor: 2, robot_destination_floor: 3, robot_status: 0}"
+```
+The ```robot_current_floor``` indicates the floor that the robot is currently waiting for. The ```robot_destination_floor``` indicates the floor that the robot wishes to take the elevator to. and the ```robot_status``` indicates whether the robot is outside the lift (0), inside the lift (2), or releasing the lift (1).
