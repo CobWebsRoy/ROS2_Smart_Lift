@@ -26,7 +26,7 @@ The custom interface includes:
 
 
 ## How to use this:
-To start the application, there are a few ROS2 nodes that have to be run: Most of the code is written in the lift_controller_v2 package, which will be in the src folder in the ROS2 workspace. The ```image_tools``` package should already be built into the ROS2 Humble desktop installation.
+Firstly, it is assumed that you have *ROS2 Humble desktop* running on *Ubuntu 22.04* on a *Raspberry Pi*. You will have to place the two packages ```lift_controller_v2``` and ```lift_interfaces``` into a ROS2 workspace ```ros2_ws/src``` and build the packages. Be sure to install all necessary dependencies using ```pip```. Remember to source the installation. To start the application, there are a few ROS2 nodes that have to be run: Most of the code is written in the lift_controller_v2 package, which will be in the src folder in the ROS2 workspace. The ```image_tools``` package should already be built into the ROS2 Humble desktop installation.
 
 The ```lift_control_node``` subscribes to the ```/lift_requests``` topic and recieves the request from the robot.
 ```
